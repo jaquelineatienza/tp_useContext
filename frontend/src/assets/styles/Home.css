@@ -1,0 +1,26 @@
+.home {
+  background: linear-gradient(to bottom, #3498db, #8e44ad);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.home h1 {
+  margin: 0%;
+  font-family: "poppins", sans-serif;
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+.home button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  background-color: #61bffd;
+}
+
+.home button:hover {
+  color: aliceblue;
+  background-color: #e33131;
+  transition: 0.5s;
+}
